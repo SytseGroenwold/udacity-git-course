@@ -1,0 +1,25 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+ The diff command help me by only showing the changes between the two files. This was way less than the total of 20 lines. 
+ Also, the -u option was a nice addition since it made everything easier to read.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+ Because all your old versions are saved, you can easily revert back to an old (working) version. This promoted experimenting with new ideas,
+ without being scared of losing your functioning piece of code. Doing this manually is a hassle, streamlining this process invites you to actually do it.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+ Cons: you might forget to commit.
+ Pros: it allows your versions to make sense and be a functional increment.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+ Because they are used for different uses. Git is made for software/programming, where multiple files need to work together to function. 
+ In Google Docs this is not the case, and if it is, then there can be a workaround where you put all the data into one single file, which will be easier and faster.
+
+How can you use the commands git log and git diff to view the history of files?
+  You can use git log to locate the commits you	are interested in, by looking at numbers of files changed or the commit message. Then when you have two commits to compare, you can compare them using git diff and see which lines get removed and which got added.
+
+How might using version control make you more confident to make changes that could break something?
+  Already answered this, but when you know you can always easily revert back to a working version of your software, you are not afraid to try out all kinds of different things. Your project is always save in an older commit.
+
+Now that you have your workspace set up, what do you want to try using Git for.
+  In general, I want to learn Git to be a better programmer and grow in my professional life. But more practically, I want to start implementing it on my own personal projects as well, such as Project Euler and my own website(s).
+
