@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+  It makes the current folder a repository tracked by git. This is needed to do, because how else do you know what to track and what not?
