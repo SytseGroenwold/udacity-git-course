@@ -1,2 +1,20 @@
 What happens when you initialize a repository? Why do you need to do it?
   It makes the current folder a repository tracked by git. This is needed to do, because how else do you know what to track and what not?
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+  It is a virtual area where you can add your files. This allows you to commit multiple files at once, and only the ones you selected, instead of everything.
+
+How can you use the staging area to make sure you have one commit per logical change?
+  You can use the staging area as a sort of temporary commit, where you stage your proposed changes and then compare it with the most recent commit. This way you get a good overview of the changes between the two and make sure that you only make one logical change per commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+  In the case of the video: when trying out new big features. You want to use a branch instead of a commit when this feature frequently switches between, finding back the commit can be a big hassle.
+
+How do the diagrams elp you visualize the branch structure?
+  The diagrams show you where there commits are different from each other and which commit is a parent of which. This makes is easy to track several features individually.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+  The result of merging two branches is as you expect, you now have grouped the two versions of the files into one big version. This allows you to combine new functions in software when you deem the moment right. It is represented, because the merged branch will include all commits of the two merged branches, this way you still see these branches.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+  In the most obvious cases it saves a lot of time to merge automatically.
